@@ -14,33 +14,33 @@ import { Sidebar, SidebarBody, SidebarLink } from "./ui/Sidebar";
 
 export function SideNav() {
   const baseLinks = [
-    { label: "Dashboard", href: "/dashboard", icon: <Home size={24} /> },
+    { label: "Dashboard", href: "/dashboard", icon: <Home size={20} /> },
     {
       label: "Alerts",
       href: "/dashboard/alerts",
-      icon: <AlertOctagon size={24} />,
+      icon: <AlertOctagon size={20} />,
       hideOnMobile: true,
     },
     {
       label: "Community",
       href: "/dashboard/community",
-      icon: <Users size={24} />,
+      icon: <Users size={20} />,
     },
     {
       label: "Support",
       href: "/dashboard/support",
-      icon: <HandCoins size={24} />,
+      icon: <HandCoins size={20} />,
     },
     {
       label: "News",
       href: "/dashboard/news",
-      icon: <Newspaper size={24} />,
+      icon: <Newspaper size={20} />,
       hideOnMobile: true,
     },
     {
       label: "Inventory",
       href: "/dashboard/inventory",
-      icon: <Package size={24} />,
+      icon: <Package size={20} />,
     },
   ];
 
@@ -84,7 +84,7 @@ export const Logo = () => {
   return (
     <a
       href="#"
-      className="relative z-20 flex items-center space-x-2 py-1 text-2xl font-medium  text-white"
+      className="relative z-20 flex items-center space-x-2 py-1 text-xl font-medium  text-white"
     >
       <div className="h-10 w-10 rounded-tl-lg rounded-tr-sm rounded-br-lg rounded-bl-sm bg-black dark:bg-white mr-10"/>
         RIVERATHON
