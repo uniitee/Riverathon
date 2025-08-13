@@ -1,6 +1,6 @@
 import React from "react";
 
-const Dashboard = () => {
+const DashboardSkeleton = () => {
   return (
     <div className="flex w-full">
       <div className="flex h-full w-full flex-col gap-2 rounded-tl-2xl border border-zinc-320 bg-white p-2 md:p-10 dark:border-zinc-700 dark:bg-zinc-950">
@@ -33,4 +33,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default DashboardSkeleton;
